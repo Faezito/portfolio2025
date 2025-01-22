@@ -11,6 +11,8 @@
 
 body {
     background-color: var(--cinzabg);
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -198,4 +200,65 @@ nav li {
     #skills li:hover {
         background-color: var(--darkcinzabg);
         cursor: none;
+    }
+
+
+    /*--------------------------------------------  MEDIA QUERY 1250PX ------------------------------------------*/
+
+    @media screen and (min-width: 801px) and (max-width:1250px) {
+        section {
+            width: 100%;
+        }
+        
+        /* PROJETOS */
+            .projeto {
+                align-items: center;
+            }
+            .projeto img {
+                width: 25%;
+                height: fit-content;
+                border-radius: 50%;
+                box-shadow: 0 5px 15px 5px rgba(0,0,0,0.7);
+            }
+    }
+
+/* -------------------------- MEDIA QUERY <800PX --------------------------*/
+
+
+    @media screen and (max-width:800px) {
+
+                    /* Navegação */
+
+            nav ul {
+                height: 40px;
+            }
+
+            nav li {
+                text-align: center;
+                padding: 15px 5px;
+            }
+                nav li:hover {
+                    background-color: var(--cinzabg);
+                    color: var(--brancotxt);
+                    cursor: pointer;
+                    font-weight: bolder;
+                }
+
+
+        /* PROJETOS */
+
+            .projeto {
+                flex-direction: column;
+                align-items: center;
+            }
+            .projeto img {
+                width: 40%;
+                border-radius: 50%;
+                margin-bottom: 25px;
+                height: fit-content;
+            }
+
+
+
+
     }
