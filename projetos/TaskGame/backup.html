@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tarefas</title>
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="playerinfo">
+    <div class="playercard">
+        <div class="picture">
+            <img src="img/profile.jpg">
+        </div>
+        <div class="infos">
+            <ul>
+                <li>Nome <h2> Matheus Faé</h2></li>
+                <li>Cargo <h2> Técnico de Informática</h2></li>
+                <li>Nível <h2> 10</h2></li>
+                <li>Experiência <h2> 10/100</h2></li>
+            </ul>
+        </div>
+    </div>
+    <div class="playerstats">
+        <div class="stat">
+            <h3>Força</h3><br>
+            <div class="barrinha">EXP: 0/0</div>
+        </div>
+        <div class="stat">
+            <h3>Constituição</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Eficiência</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Sabedoria</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Conhecimento</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Inteligencia</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Carisma</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Proatividade</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Inovação</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Tecnologia</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>Oratória</h3><br>
+            <div class="barrinha"></div>
+        </div>
+        <div class="stat">
+            <h3>TRABALHO EM EQUIPE</h3><br>
+            <div class="barrinha"></div>
+        </div>
+    
+        <div class="container"> 
+            <h1 class="vpad2">Adicionar Tarefa</h1>
+    
+            <form>
+                
+            <label for="titulo">Titulo: </label>
+           <input type="text" id="titulo" placeholder="Título da tarefa">
+    <br>
+           <label for="areas">Especialização:</label>
+            <select name="areas" id="areas" class="hpad0">
+                <option value="none">Nenhuma</option>
+                <option value="ti">Tecnologia da Informação</option>
+                <option value="manutencao">Manutenção</option>
+                <option value="adm">Administrativo</option>
+                <option value="atendimento">Atendimento</option>
+                <option value="comercial">Comercial</option>
+            </select>
+    <br>
+            <label for="areas2">Especialização secundária:</label>
+            <select name="areas2" id="areas2" class="hpad0">
+                <option value="none">Nenhuma</option>
+                <option value="ti">Tecnologia da Informação</option>
+                <option value="manutencao">Manutenção</option>
+                <option value="adm">Administrativo</option>
+                <option value="atendimento">Atendimento</option>
+                <option value="comercial">Comercial</option>
+            </select>
+    <br>
+           <label for="tempo">Tempo:</label> 
+           <input type="number" id="tempo" placeholder="Tempo EM MINUTOS"> <i>minutos</i>
+    <br>
+        </div>
+    <button id="addtarefa" type="button" onclick="addTask()">Adicionar</button>
+    </form>
+</div>
+    </div>
+
+<div class="task-list">
+    <h2>Tarefas ativas</h2>
+        <div class="task-container">
+        <input type="checkbox" name="tarefa" id="tarefa">    <!-- PERSONALIZAR MAIS -->
+        <div class="task">
+            <h3>
+                <label for="tarefa">$TITULO</label>
+                <span class="delete">X</span>    <!--TROCAR POR ÍCONE DE LIXEIRA -->
+            </h3>
+            <br>
+            <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nobis ad vitae dolorem quae? Pariatur nesciunt voluptatem dolores, ratione, ipsum consequuntur fuga sunt deleniti illum repellat, esse excepturi quaerat inventore.</span> <br>
+            <h4>Recompensas</h4>
+            <div class="center">
+            <ul class="rewards">
+                <li>Int: +10</li>
+                <li>Char: +15</li>
+                <li>Sta: +5</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>

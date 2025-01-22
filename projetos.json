@@ -1,0 +1,26 @@
+[
+ {
+    "titulo": "GameDB",
+    "desc": "API/App para armazenar jogos, seus dados e, futuramente, dados do jogador. Criei enquanto estudava Back-End e integrações com bancos de dados, por enquanto não tem muitas utilidades individuais, mas futuramente pretendo incluir contas individuais para que cada jogador possa registrar os jogos que está jogando/já jogou, e seus registros. <br> A versão inicial foi feita com o MySQL de banco de dados, porém o host só suportava PostgreSQL, portanto tive que refazer e ajustar o back-end para tal.",
+    "tecnologias": ["HTML", "CSS", "Javascript", "Node", "Express", "MySQL", "PostgreSQL"],
+    "imagem": "/components/img/gamedb 1.png",
+    "acessar": "https://gamedb-y1bu.onrender.com/",
+    "git": "https://github.com/Faezito/gamedb"
+ },
+ {
+    "titulo": "PDF Extractor",
+    "desc": "Programa para extrair dados de documentos PDF. Criei este programa pois um dia vi uma colega minha copiando e-mail por e-mail do sistema da empresa,manualmente, para enviar e-mails em massa, daí tive a ideia de criar um programa que extraísse esses e-mails automaticamente para agilizar seu trabalho. Porém, como não é possível, até onde sei, extrair diretamente do sistema, criei o programa para extrair de documentos PDF, para que elas gerem o PDF ao tentar imprimir e, utilizem meu programa para extrair automaticamente os e-mails ou telefones. Criei primeiramente um programa em Python, depois fiz a versão web em Flask, mas tive dificuldades em encontrar um host Flask grátis, então traduzi para Javascript, que é a linguagem do projeto final.",
+    "tecnologias": ["HTML", "CSS", "Javascript", "Python", "Flask"],
+    "imagem": "/components/img/pdfextractor.png",
+    "acessar": "https://pdf-extractor-2scp.onrender.com",
+    "git": "https://github.com/Faezito/PDFextractor"
+ },
+ {
+    "titulo": "Task RPG(Jogo) - Em manutenção",
+    "desc": "Jogo de Gerenciador de Tarefas, onde o usuário cria suas tarefas e, ao concluí-las, ele ganha experiência na habilidade da tarefa, baseada no tempo e complexidade de execução. Após receber um valor X de experiência em diversas habilidades, ele sobe de nível geral, similar ao sistema de níveis dos jogos de The Elder Scrolls.<br>Programação feita em Javascript puro. <br> Ainda está em Alpha e com alguns bugs, mas está sendo aprimorado e tendo novas funções. <br>",
+    "tecnologias": ["HTML", "CSS", "Javascript"],
+    "imagem": "/components/img/task-rpg-original.png",
+    "acessar": "/projetos/TaskGame/index.html",
+    "git": "https://github.com/Faezito/TaskRPG"
+ }
+]

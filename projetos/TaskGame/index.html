@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tarefas</title>
+
+    <script src="script.js" defer></script>
+</head>
+<body>  
+    <div class="playerinfo">
+    <div id="adic-tarefa">
+        <button id="addtarefa" onclick="addTarefa()">nova tarefa</button>
+    </div>
+    <div id="newTask"></div>
+    <div class="playercard">
+        <div class="picture">
+            <img src="img/profile.jpg">
+        </div>
+        <div class="infos">
+            <ul>
+                <li>Nome <h2> player.name</h2></li>
+                <li>Cargo <h2> <span id="cargo"></span></h2></li>
+                <li>Nível <h2> 1</h2></li>
+                <li>Experiência <h2> 10/100</h2></li>
+            </ul>
+        </div>
+    </div>
+    <div class="playerstats">
+       <div class="stat">
+                <h3>Tecnologia</h3><br>
+                <div class="barra">
+                    <div class="barrinha"><div id="tech"></div></div>
+                    <div id="techlevel"></div>
+                </div>
+        </div>
+
+        <div class="stat">
+            <h3>Comunicação</h3><br>
+            <div class="barra">
+                <div class="barrinha"><div id="comm"></div></div>
+                <div id="commlevel"></div>
+            </div>
+        </div>
+
+        <div class="stat">
+            <h3>Proatividade</h3><br>
+            <div class="barra">
+                <div class="barrinha"><div id="pro"></div></div>
+                <div id="prolevel"></div>
+            </div>
+        </div>
+
+        <div class="stat">
+            <h3>Inovação</h3><br>
+            <div class="barra">
+                <div class="barrinha"><div id="inova"></div></div>
+                <div id="inovalevel"></div>
+            </div>
+        </div>
+
+        <div class="stat">
+            <h3>Conhecimento</h3><br>
+            <div class="barra">
+                <div class="barrinha"><div id="con"></div></div>
+                <div id="conlevel"></div>
+            </div>
+        </div>
+
+        <div class="stat">
+            <h3>Marketing</h3><br>
+            <div class="barra">
+                <div class="barrinha">
+                    <div id="mkt">
+                    </div>
+                </div>
+                <div id="mktlevel">
+                </div>
+            </div>
+        </div>  
+    </form>
+</div>
+</div>
+
+<div id="task-list">    
+</div>
+
+</body>
+</html>
