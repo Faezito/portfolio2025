@@ -1,7 +1,7 @@
 [
  {
     "titulo": "GameDB",
-    "desc": "API/App para armazenar jogos, seus dados e, futuramente, dados do jogador. Criei enquanto estudava Back-End e integrações com bancos de dados, por enquanto não tem muitas utilidades individuais, mas futuramente pretendo incluir contas individuais para que cada jogador possa registrar os jogos que está jogando/já jogou, e seus registros. <br> A versão inicial foi feita com o MySQL de banco de dados, porém o host só suportava PostgreSQL, portanto tive que refazer e ajustar o back-end para tal.",
+    "desc": "Plataforma para armazenar jogos, seus dados e progressão, registre sua biblioteca para organizar suas gameplays de forma simples e prática! <br> Criei enquanto estudava Back-End e integrações com bancos de dados.",
     "tecnologias": ["HTML", "CSS", "Javascript", "Node", "Express", "MySQL", "PostgreSQL"],
     "imagem": "/components/img/gamedb 1.png",
     "acessar": "https://gamedb-y1bu.onrender.com/",
