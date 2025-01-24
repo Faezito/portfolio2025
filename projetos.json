@@ -1,7 +1,7 @@
 [
  {
     "titulo": "GameDB",
-    "desc": "Plataforma para armazenar jogos, seus dados e progressão, registre sua biblioteca para organizar suas gameplays de forma simples e prática! <br> Criei enquanto estudava Back-End e integrações com bancos de dados.",
+    "desc": "Plataforma para armazenar jogos, seus dados e progressão, registre sua biblioteca para organizar suas gameplays de forma simples e prática! <br> Criei sozinho enquanto estudava Back-End e integrações com bancos de dados.",
     "tecnologias": ["HTML", "CSS", "Javascript", "Node", "Express", "MySQL", "PostgreSQL"],
     "imagem": "/components/img/gamedb 1.png",
     "acessar": "https://gamedb-y1bu.onrender.com/",
