@@ -14,13 +14,5 @@
     "imagem": "/components/img/pdfextractor.png",
     "acessar": "https://pdf-extractor-2scp.onrender.com",
     "git": "https://github.com/Faezito/PDFextractor"
- },
- {
-    "titulo": "Task RPG(Jogo) - Em manutenção",
-    "desc": "Jogo de Gerenciador de Tarefas, onde o usuário cria suas tarefas e, ao concluí-las, ele ganha experiência na habilidade da tarefa, baseada no tempo e complexidade de execução. Após receber um valor X de experiência em diversas habilidades, ele sobe de nível geral, similar ao sistema de níveis dos jogos de The Elder Scrolls.<br>Programação feita em Javascript puro. <br> Ainda está em Alpha e com alguns bugs, mas está sendo aprimorado e tendo novas funções. <br>",
-    "tecnologias": ["HTML", "CSS", "Javascript"],
-    "imagem": "/components/img/task-rpg-original.png",
-    "acessar": "/projetos/TaskGame/index.html",
-    "git": "https://github.com/Faezito/TaskRPG"
  }
 ]
