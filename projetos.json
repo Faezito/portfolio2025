@@ -1,8 +1,7 @@
 [
  {
     "titulo": "GameDB (Em manutenção)",
-    "desc": "Plataforma para armazenar jogos, seus dados e progressão, registre sua biblioteca para organizar suas gameplays de forma simples e prática! <br> Criei sozinho enquanto estudava Back-End e integrações com bancos de dados. <br>
-      Usei bibliotecas do Python como BCrypt, e a maior parte da estrutura do Front-End foi feita no Jinja mesmo.",
+    "desc": "Plataforma para armazenar jogos, seus dados e progressão, registre sua biblioteca para organizar suas gameplays de forma simples e prática! <br> Criei sozinho enquanto estudava Back-End e integrações com bancos de dados. <br> Usei bibliotecas do Python como BCrypt, e a maior parte da estrutura do Front-End foi feita no Jinja mesmo.",
     "tecnologias": ["HTML", "CSS", "Javascript", "Python", "Flask", "SQLite"],
     "imagem": "/components/img/gamedb 1.png",
     "acessar": "https://gamedb2-0.onrender.com/",
@@ -17,4 +16,5 @@
     "git": "https://github.com/Faezito/PDFextractor"
  }
 ]
+
 
