@@ -1,0 +1,19 @@
+[
+    {
+        "linguagens": "<li class='list-group-item tec'>C#</li><li class='list-group-item tec'>SQL</li><li class='list-group-item tec'>JavaScript</li><li class='list-group-item tec'>TypeScript</li>",
+
+        "frameworks": "<li class='list-group-item tec'>ASP.NET Core</li><li class='list-group-item tec'>Entity Framework Core</li><li class='list-group-item tec'>Dapper</li><li class='list-group-item tec'>Blazor</li>",
+
+        "bancos_de_dados": "<li class='list-group-item tec'>SQL Server</li><li class='list-group-item tec'>PostgreSQL</li><li class='list-group-item tec'>SQLite</li>",
+
+        "ferramentas_de_desenvolvimento": "<li class='list-group-item tec'>Git/Github</li><li class='list-group-item tec'>Visual Studio</li><li class='list-group-item tec'>VS Code</li><li class='list-group-item tec'>Putty</li><li class='list-group-item tec'>WinSCP</li>",
+
+        "devops": "<li class='list-group-item tec'>CI/CD</li><li class='list-group-item tec'>GitHub Actions</li><li class='list-group-item tec'>Containerização</li><li class='list-group-item tec'>Versionamento de ambiente</li>",
+
+        "integros_protheus_totvs": "<li class='list-group-item tec'>Integração direta com tabelas internas do Protheus</li><li class='list-group-item tec'>SA1 – Clientes</li><li class='list-group-item tec'>SB1 – Produtos</li><li class='list-group-item tec'>SC5 – Pedidos</li><li class='list-group-item tec'>SC6 – Itens de Pedido</li><li class='list-group-item tec'>SF2 – Faturamento</li><li class='list-group-item tec'>CTT – Centros de Custo</li>",
+
+        "integracoes_externas": "<li class='list-group-item tec'>Integração com sistemas terceirizados de PDV e ERPs externos</li><li class='list-group-item tec'>Tabelas de vendas</li><li class='list-group-item tec'>Produtos externos</li><li class='list-group-item tec'>Movimentações financeiras</li><li class='list-group-item tec'>Sincronização de estoque</li><li class='list-group-item tec'>APIs REST de PDV</li>",
+
+        "outras_competencias": "<li class='list-group-item tec'>Criação de dashboards em .NET</li><li class='list-group-item tec'>Relatórios financeiros</li><li class='list-group-item tec'>Modelagem de dados</li><li class='list-group-item tec'>Procedures e Views otimizadas</li>"
+    }
+]

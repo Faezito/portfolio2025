@@ -1,0 +1,39 @@
+[
+ {
+    "titulo": "App Minha Cozinha",
+    "desc": "Sistema para gestão de estoque, vendas e lista de compras para cozinheiras autônomas, restaurantes e controle de compras doméstico.",
+    "tecnologias": ["ASP.NET MVC", "SQL Server", "HTML", "CSS", "Javascript", "Visual Studio", "Ubuntu Server", "Deploy", "Git/Github"],
+    "acessar": "https://unnettled-carina-glossier.ngrok-free.dev",
+    "imagem": "/components/img/kitchenapp.png",
+    "git": "https://github.com/Faezito/gamedb2.0",
+    "obs": "Como o servidor é caseiro e o app ainda está em desenvolvimento, a aplicação não fica disponível 24/7, então pode acontecer de estar offline no momento do acesso, tente novamente em outro horário."
+
+ }, 
+ {
+    "titulo": "Agenda de Manutenção",
+    "desc": "Sistema desenvolvido para organizar as equipes de manutenção, portaria e limpeza da empresa, a fim de garantir que tudo esteja organizado durante eventos e aulas. <br> Consome a API do Google Agenda para alimentar uma interface mais simples e com melhor experiência para usuários menos tecnológicos.",
+    "tecnologias": ["UX/UI", "Google API", "HTML", "CSS", "Javascript", "Python", "Flask", "SQLite", "SQL Server"],
+    "imagem": "/components/img/agendaCahor.png",
+    "acessar": "https://gamedb2-0.onrender.com/",
+    "git": "https://github.com/Faezito/gamedb2.0",
+    "obs": "Por consumir uma API com dados sensíveis da empresa, a exibição é apenas demonstrativa."
+ },
+ {
+    "titulo": "GameDB",
+    "desc": "Plataforma para armazenar jogos, seus dados e progressão, registre sua biblioteca para organizar suas gameplays de forma simples e prática! <br> Criei sozinho enquanto estudava Back-End e integrações com bancos de dados. <br> Usei bibliotecas do Python como BCrypt, e a maior parte da estrutura do Front-End foi feita no Jinja mesmo.",
+    "tecnologias": ["HTML", "CSS", "Javascript", "Python", "Flask", "SQLite", "SQL Server"],
+    "imagem": "/components/img/gamedb 1.png",
+    "acessar": "https://gamedb2-0.onrender.com/",
+    "git": "https://github.com/Faezito/gamedb2.0"
+ },
+ {
+    "titulo": "PDF Extractor",
+    "desc": "Programa para extrair dados de documentos PDF. Criei este programa pois um dia vi uma colega minha copiando e-mail por e-mail do sistema da empresa,manualmente, para enviar e-mails em massa, daí tive a ideia de criar um programa que extraísse esses e-mails automaticamente para agilizar seu trabalho. Porém, como não é possível, até onde sei, extrair diretamente do sistema, criei o programa para extrair de documentos PDF, para que elas gerem o PDF ao tentar imprimir e, utilizem meu programa para extrair automaticamente os e-mails ou telefones. Criei primeiramente um programa em Python, depois fiz a versão web em Flask, mas tive dificuldades em encontrar um host Flask grátis, então traduzi para Javascript, que é a linguagem do projeto final.",
+    "tecnologias": ["HTML", "CSS", "Javascript", "Python", "Flask"],
+    "imagem": "/components/img/pdfextractor.png",
+    "acessar": "https://pdf-extractor-2scp.onrender.com",
+    "git": "https://github.com/Faezito/PDFextractor"
+ }
+]
+
+
