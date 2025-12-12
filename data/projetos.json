@@ -3,7 +3,7 @@
     "titulo": "App Minha Cozinha",
     "desc": "Sistema para gestão de estoque, vendas e lista de compras para cozinheiras autônomas, restaurantes e controle de compras doméstico.",
     "tecnologias": ["ASP.NET MVC", "SQL Server", "HTML", "CSS", "Javascript", "Visual Studio", "Ubuntu Server", "Deploy", "Git/Github"],
-    "acessar": "https://unnettled-carina-glossier.ngrok-free.dev",
+    "acessar": "https://app-minhacozinha.runasp.net/",
     "imagem": "/components/img/kitchenapp.png",
     "git": "https://github.com/Faezito/gamedb2.0",
     "obs": "Como o servidor é caseiro e o app ainda está em desenvolvimento, a aplicação não fica disponível 24/7, então pode acontecer de estar offline no momento do acesso, tente novamente em outro horário."
