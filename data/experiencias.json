@@ -3,6 +3,7 @@
     "empresa": "Chocolate Lugano",
     "tempo": "<span id='atualTempo'></span>",
     "cargo": "Desenvolvedor Fullstack Jr",
+    "desc": "Desenvolvimento e Manutenção de sistemas ERP da empresa através de ASP.NET (C#), Javascript, JQuery e SQL Server, análise de dados e geração de relatórios SQL, suporte técnico ao usuário e infraestrutura.",
     "atribuicoes": "<li class='py-1'>Desenvolvimento e manutenção de sistemas corporativos e aplicações internas utilizando ASP.NET Core MVC, C#, SQL Server e arquitetura em camadas.</li><li class='py-1'>Desenvolvimento, manutenção e consumo de APIs.</li><li class='py-1'>Criação de queries complexas, tabelas dinâmicas (PIVOT), Stored Procedures e otimização de performance SQL.</li><li class='py-1'>Atuação em front-end com Bootstrap 5, JavaScript, jQuery, Swal2, ECharts e outras bibliotecas modernas.</li><li class='py-1'>Desenvolvimento e manutenção de BIs, dashboards financeiros e sistemas de vendas.</li><li class='py-1'>Integração com APIs externas, incluindo consumo de APIs de Inteligência Artificial generativa.</li><li class='py-1'>Administração e configuração de servidores Linux, Samba, Nginx e serviços de rede.</li><li class='py-1'>Análise, modelagem e manipulação de dados; geração de relatórios financeiros com SQL, incluindo integração com tabelas do Protheus (TOTVS) e tabelas externas de sistemas terceirizados de PDV.</li><li class='py-1'>Versionamento com Git, documentação técnica, CI/CD básico, boas práticas de Clean Code, troubleshooting avançado e automação de processos.</li>",
     "realizacoes": "<li class='py-1'>Desenvolvimento de páginas completas de relatórios, ferramentas de exportação e importação de dados e automações que aumentaram a eficiência operacional.</li><li class='py-1'>Criação de um dashboard financeiro corporativo consolidando dados de diversas filiais, franquias e fábricas.</li><li class='py-1'>Atuação em infraestrutura instalando cabeamento e pontos de rede em um dos parques da empresa.</li><li class='py-1'>Desenvolvimento de um aplicativo mobile utilizando a câmera do smartphone para validação de imagens, integrando a API Gemini para agilizar fluxos legais, jurídicos e logísticos.</li>",
     "tecnologias": ["ASP.NET Core","C#","SQL Server","Bootstrap 5","JavaScript","jQuery","Samba","Linux","Nginx","ECharts","APIs REST","Git","Protheus TOTVS","DevOps","IA Generativa"]
@@ -11,6 +12,7 @@
   {
     "empresa": "Universidade de Caxias do Sul (UCS) — Campus Canela",
     "tempo": "1 ano e 6 meses",
+    "desc": "Suporte técnico ao usuário e infraestrutura.",
     "cargo": "Técnico de Suporte em TI Jr",
     "atribuicoes": "<li class='py-1'>Suporte técnico para acadêmicos e colaboradores, incluindo manutenção de computadores, impressoras, projetores e equipamentos de TI.</li><li class='py-1'>Manutenção e configuração de rede: racks, patch panels, switches, pontos de rede e access points.</li><li class='py-1'>Configuração e administração de impressoras em rede.</li><li class='py-1'>Montagem de pontos de rede.</li><li class='py-1'>Gestão de estoque de TI.</li><li class='py-1'>Suporte técnico para eventos no auditório, operando sistemas de áudio, vídeo e transmissão.</li>",
     "realizacoes": "<li class='py-1'>Projeto e realocação estrutural dos laboratórios de informática, reduzindo custos em aproximadamente 50% e aumentando a receita em locações.</li><li class='py-1'>Projeto e reorganização de sala administrativa, aumentando a receita gerada em utilização de salas.</li><li class='py-1'>Realocação completa incluindo instalação de pontos de rede, configuração total de computadores e impressoras.</li><li class='py-1'>Planejamento e execução de upgrade tecnológico no auditório, incluindo sistema de gravação e transmissão profissional.</li>",
@@ -19,6 +21,7 @@
   {
     "empresa": "Autônomo",
     "tempo": "2 anos",
+    "desc": "Montagem e manutenção de computadores, e suporte com redes e sistemas.",
     "cargo": "Técnico de Informática",
     "atribuicoes": "<li class='py-1'>Atendimento técnico para residências e microempresas.</li><li class='py-1'>Instalação de redes, impressoras e infraestrutura de TI.</li><li class='py-1'>Montagem de pontos de rede e configurações.</li><li class='py-1'>Montagem e manutenção de computadores.</li><li class='py-1'>Suporte ao usuário.</li><li class='py-1'>Experiência ampla com Windows e Ubuntu.</li><li class='py-1'>Criação e gestão de servidores.</li>",
     "realizacoes": "<li class='py-1'>Construção de redes completas para pequenos negócios.</li><li class='py-1'>Redução de custos operacionais por meio de manutenção preventiva.</li><li class='py-1'>Alto índice de resolução no primeiro atendimento.</li>",
