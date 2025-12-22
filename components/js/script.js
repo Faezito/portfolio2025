@@ -14,15 +14,18 @@ async function carregarProjetos() {
             projetoIndice++
             const elemento = document.createElement('div')
             elemento.classList.add('projeto')
+            elemento.classList.add('row')
             let alerta = ""
             if(projetoIndice == 1){
                 alerta = "<span class='badge text-bg-primary text-uppercase'>novidade!</span>"
             }
 
+            // <div class="col-2 my-auto">
+            // <img src="${projeto.imagem}" class="h-auto w-100" alt="${projeto.titulo}">
+            // </div>
 
             elemento.innerHTML = `
-            <img src="${projeto.imagem}" alt="${projeto.titulo}">
-            <div class="projetoDesc">
+            <div class="projetoDesc col-12">
             <h3 class="d-inline">${projeto.titulo} ${alerta}</h3>
             <p>${projeto.desc}</p>   
             <p><strong>Tecnologias utilizadas: </strong>${projeto.tecnologias.join(', ')}</p>
@@ -54,8 +57,8 @@ async function carregarExperiencias() {
             elemento.classList.add('mb-5')
 
             elemento.innerHTML = `
-                <h1>${experiencia.empresa}</h1>
                 <h3>${experiencia.cargo} (${experiencia.tempo})</h3>
+                <h4>${experiencia.empresa}</h4>
                 <p>${experiencia.desc}</p>
                 <h4 class="fw-bold"> Responsabilidades </h4>
                 <ul class="text-start col mx-auto">
@@ -149,23 +152,23 @@ async function atual() {
     txt.textContent = `${mesesTrabalhados} meses`
 }
 
-async function main() {
-    $('#kitchenapp').on('click', (e) => {
-        e.preventDefault();
+// async function main() {
+//     $('#kitchenapp').on('click', (e) => {
+//         e.preventDefault();
 
-        Swal.fire({
-            icon: "info",
-            title: "Aviso",
-            text: "Esta aplicação roda em meu servidor privado que pode ou não estar ligado no momento. Caso não consiga acessa-la, tente novamente mais tarde.",
-            showCloseButton: true,
-            confirmButtonText: "Acessar"
-        }).then(result => {
-        if (result.isConfirmed) {
-            window.open("https://unnettled-carina-glossier.ngrok-free.dev", "_blank");
-        }
-    });
-    });
-}
+//         Swal.fire({
+//             icon: "info",
+//             title: "Aviso",
+//             text: "Esta aplicação roda em meu servidor privado que pode ou não estar ligado no momento. Caso não consiga acessa-la, tente novamente mais tarde.",
+//             showCloseButton: true,
+//             confirmButtonText: "Acessar"
+//         }).then(result => {
+//         if (result.isConfirmed) {
+//             window.open("https://unnettled-carina-glossier.ngrok-free.dev", "_blank");
+//         }
+//     });
+//     });
+// }
 
 
 $(document).ready(async function() {
